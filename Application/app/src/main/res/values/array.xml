@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_region">
+        <item></item>
+        <item>서울</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>인천</item>
+        <item>광주</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>세종</item>
+        <item>경기</item>
+        <item>강원</item>
+        <item>충북</item>
+        <item>충남</item>
+        <item>전북</item>
+        <item>전남</item>
+        <item>경북</item>
+        <item>경남</item>
+        <item>제주</item>
+    </string-array>
+
+    <string-array name="spinner_region_seoul">
+        <item>강남</item>
+        <item>강동</item>
+        <item>강북</item>
+        <item>강서</item>
+        <item>관악</item>
+        <item>광진</item>
+        <item>구로</item>
+        <item>금천</item>
+        <item>노원</item>
+        <item>도봉</item>
+        <item>동대문</item>
+        <item>동작</item>
+        <item>마포</item>
+        <item>서대문</item>
+        <item>서초</item>
+        <item>성동</item>
+        <item>성북</item>
+        <item>송파</item>
+        <item>양천</item>
+        <item>영등포</item>
+        <item>용산</item>
+        <item>은평</item>
+        <item>종로</item>
+        <item>중구</item>
+        <item>중랑</item>
+    </string-array>
+    <string-array name="spinner_region_busan">
+        <item>강서</item>
+        <item>금정</item>
+        <item>기장</item>
+        <item>남구</item>
+        <item>동구</item>
+        <item>동래</item>
+        <item>부산진</item>
+        <item>북구</item>
+        <item>사상</item>
+        <item>사하</item>
+        <item>서구</item>
+        <item>수영</item>
+        <item>연제</item>
+        <item>영도</item>
+        <item>중구</item>
+        <item>해운대</item>
+    </string-array>
+
+    <string-array name="spinner_region_incheon">
+        <item>강화</item>
+        <item>계양</item>
+        <item>남구</item>
+        <item>남동</item>
+        <item>동구</item>
+        <item>부평</item>
+        <item>서구</item>
+        <item>연수</item>
+        <item>옹진</item>
+        <item>중구</item>
+    </string-array>
+
+    <string-array name="spinner_region_daegu">
+        <item>중구</item>
+        <item>동구</item>
+        <item>서구</item>
+        <item>남구</item>
+        <item>북구</item>
+        <item>수성</item>
+        <item>달서</item>
+        <item>달성</item>
+    </string-array>
+
+    <string-array name="spinner_region_gwangju">
+        <item>동구</item>
+        <item>서구</item>
+        <item>남구</item>
+        <item>북구</item>
+        <item>광산</item>
+    </string-array>
+
+    <string-array name="spinner_region_daejeon">
+        <item>대덕</item>
+        <item>동구</item>
+        <item>서구</item>
+        <item>유성</item>
+        <item>중구</item>
+    </string-array>
+
+    <string-array name="spinner_region_ulsan">
+        <item>남구</item>
+        <item>동구</item>
+        <item>북구</item>
+        <item>울주</item>
+        <item>중구</item>
+    </string-array>
+
+    <string-array name="spinner_region_sejong">
+        <item>없음</item>
+    </string-array>
+
+    <string-array name="spinner_region_gyeonggi">
+        <item>가평</item>
+        <item>고양</item>
+        <item>과천</item>
+        <item>광명</item>
+        <item>광주</item>
+        <item>구리</item>
+        <item>군포</item>
+        <item>김포</item>
+        <item>남양주</item>
+        <item>동두천</item>
+        <item>부천</item>
+        <item>성남</item>
+        <item>수원</item>
+        <item>시흥</item>
+        <item>안산</item>
+        <item>안성</item>
+        <item>안양</item>
+        <item>양주</item>
+        <item>양평</item>
+        <item>여주</item>
+        <item>연천</item>
+        <item>오산</item>
+        <item>용인</item>
+        <item>의왕</item>
+        <item>의정부</item>
+        <item>이천</item>
+        <item>파주</item>
+        <item>평택</item>
+        <item>포천</item>
+        <item>하남</item>
+        <item>화성</item>
+    </string-array>
+
+    <string-array name="spinner_region_gangwon">
+        <item>강릉</item>
+        <item>고성</item>
+        <item>동해</item>
+        <item>삼척</item>
+        <item>속초</item>
+        <item>양구</item>
+        <item>양양</item>
+        <item>영월</item>
+        <item>원주</item>
+        <item>인제</item>
+        <item>정선</item>
+        <item>철원</item>
+        <item>춘천</item>
+        <item>태백</item>
+        <item>평창</item>
+        <item>홍천</item>
+        <item>화천</item>
+        <item>횡성</item>
+    </string-array>
+
+    <string-array name="spinner_region_chung_buk">
+        <item>괴산</item>
+        <item>단양</item>
+        <item>보은</item>
+        <item>영동</item>
+        <item>옥천</item>
+        <item>음성</item>
+        <item>제천</item>
+        <item>증평</item>
+        <item>진천</item>
+        <item>청주</item>
+        <item>충주</item>
+    </string-array>
+
+    <string-array name="spinner_region_chung_nam">
+        <item>계룡</item>
+        <item>공주</item>
+        <item>금산</item>
+        <item>논산</item>
+        <item>당진</item>
+        <item>보령</item>
+        <item>부여</item>
+        <item>서산</item>
+        <item>서천</item>
+        <item>아산</item>
+        <item>예산</item>
+        <item>천안</item>
+        <item>청양</item>
+        <item>태안</item>
+        <item>홍성</item>
+    </string-array>
+
+    <string-array name="spinner_region_gyeong_buk">
+        <item>경산</item>
+        <item>경주</item>
+        <item>고령</item>
+        <item>구미</item>
+        <item>군위</item>
+        <item>김천</item>
+        <item>문경</item>
+        <item>봉화</item>
+        <item>상주</item>
+        <item>성주</item>
+        <item>안동</item>
+        <item>영덕</item>
+        <item>영양</item>
+        <item>영주</item>
+        <item>영천</item>
+        <item>예천</item>
+        <item>울릉</item>
+        <item>울진</item>
+        <item>의성</item>
+        <item>청도</item>
+        <item>청송</item>
+        <item>칠곡</item>
+        <item>포항</item>
+    </string-array>
+
+    <string-array name="spinner_region_gyeong_nam">
+        <item>거제</item>
+        <item>거창</item>
+        <item>고성</item>
+        <item>김해</item>
+        <item>남해</item>
+        <item>밀양</item>
+        <item>사천</item>
+        <item>산청</item>
+        <item>양산</item>
+        <item>의령</item>
+        <item>진주</item>
+        <item>창녕</item>
+        <item>창원</item>
+        <item>통영</item>
+        <item>하동</item>
+        <item>함안</item>
+        <item>함양</item>
+        <item>합천</item>
+    </string-array>
+
+    <string-array name="spinner_region_jeon_buk">
+        <item>고창</item>
+        <item>군산</item>
+        <item>김제</item>
+        <item>남원</item>
+        <item>무주</item>
+        <item>부안</item>
+        <item>순창</item>
+        <item>완주</item>
+        <item>익산</item>
+        <item>임실</item>
+        <item>장수</item>
+        <item>전주</item>
+        <item>정읍</item>
+        <item>진안</item>
+    </string-array>
+
+    <string-array name="spinner_region_jeon_nam">
+        <item>강진</item>
+        <item>고흥</item>
+        <item>곡성</item>
+        <item>광양</item>
+        <item>구례</item>
+        <item>나주</item>
+        <item>담양</item>
+        <item>목포</item>
+        <item>무안</item>
+        <item>보성</item>
+        <item>순천</item>
+        <item>신안</item>
+        <item>여수</item>
+        <item>영광</item>
+        <item>영암</item>
+        <item>완도</item>
+        <item>장성</item>
+        <item>장흥</item>
+        <item>진도</item>
+        <item>함평</item>
+        <item>해남</item>
+        <item>화순</item>
+    </string-array>
+
+    <string-array name="spinner_region_jeju">
+        <item>서귀포</item>
+        <item>제주</item>
+    </string-array>
+
+
+
+    <string-array name="spinner_dog">
+        <item>믹스견</item>
+        <item>말티즈</item>
+        <item>푸들</item>
+        <item>스피츠</item>
+        <item>치와와</item>
+        <item>포메라니안</item>
+        <item>토이푸들</item>
+        <item>시츄</item>
+        <item>비숑 프리제</item>
+        <item>닥스훈트</item>
+        <item>코카 스파니엘</item>
+        <item>요크셔 테리어</item>
+        <item>래브라도 리트리버</item>
+        <item>보더콜리</item>
+        <item>비글</item>
+        <item>미니어쳐 핀셔</item>
+        <item>골든 리트리버</item>
+        <item>진도견</item>
+        <item>꼬똥뜨툴레아</item>
+        <item>시베리안 허스키</item>
+        <item>보스턴테리어</item>
+        <item>말라뮤트</item>
+        <item>웰시코기</item>
+        <item>삽살개</item>
+        <item>빠삐용</item>
+        <item>슈나우저</item>
+        <item>도베르만</item>
+        <item>프렌치 불독</item>
+        <item>사모예드</item>
+        <item>퍼그</item>
+        <item>시바견</item>
+        <item>불독</item>
+        <item>제주개</item>
+        <item>차우 차우</item>
+    </string-array>
+    <string-array name="spinner_cat">
+        <item>믹스묘</item>
+        <item>노르웨이숲</item>
+        <item>네바 머스커레이드</item>
+        <item>네벨룽</item>
+        <item>데본렉스</item>
+        <item>도메스틱 숏헤어</item>
+        <item>도메스틱 롱헤어</item>
+        <item>돈스코이</item>
+        <item>드래곤 리</item>
+        <item>라가머핀</item>
+        <item>라팜</item>
+        <item>랙돌</item>
+        <item>러시안 블루</item>
+        <item>라이코이</item>
+        <item>람킨 드월프</item>
+        <item>맹크스</item>
+        <item>메인쿤</item>
+        <item>민스킨</item>
+        <item>먼치킨</item>
+        <item>미뉴에트</item>
+        <item>메콩 밥테일</item>
+        <item>발리니즈</item>
+        <item>버만</item>
+        <item>버미즈</item>
+        <item>벵갈</item>
+        <item>봄베이</item>
+        <item>브리티시 쇼트헤어</item>
+        <item>브리티시 롱 헤어</item>
+        <item>밤비노</item>
+        <item>버밀라</item>
+        <item>시베리아</item>
+        <item>샴</item>
+        <item>샤트룩스</item>
+        <item>셀커크 렉스</item>
+        <item>소말리</item>
+        <item>스코티시 폴드</item>
+        <item>스핑크스</item>
+        <item>싱가퓨라</item>
+        <item>스노우슈</item>
+        <item>사바나</item>
+        <item>아메리칸 밥테일</item>
+        <item>아메리칸 쇼트헤어</item>
+        <item>아메리칸 와이어헤어</item>
+        <item>아메리칸 컬</item>
+        <item>아비시니안</item>
+        <item>오리엔탈 쇼트헤어</item>
+        <item>오리엔탈 롱헤어</item>
+        <item>오시캣</item>
+        <item>유러피안버미즈</item>
+        <item>이그저틱</item>
+        <item>이집션마우</item>
+        <item>엑조틱 쇼트헤어</item>
+        <item>자바니즈</item>
+        <item>재패니즈 밥테일</item>
+        <item>쵸지</item>
+        <item>차이니즈 리 와우</item>
+        <item>치토</item>
+        <item>컬러포인트 쇼트헤어</item>
+        <item>코니시 렉스</item>
+        <item>코랫</item>
+        <item>터키시 반</item>
+        <item>터키시 앙고라</item>
+        <item>통키니즈</item>
+        <item>토이거</item>
+        <item>페르시안</item>
+        <item>픽시 밥</item>
+        <item>하바나브라운</item>
+        <item>하이랜더</item>
+        <item>히말라얀</item>
+    </string-array>
+
+    <string-array name="spinner_variety_dog">
+        <item>몰라요</item>
+        <item>믹스견</item>
+        <item>포메라니안</item>
+        <item>스피츠</item>
+        <item>말티즈</item>
+        <item>치와와</item>
+        <item>시바</item>
+        <item>비글</item>
+        <item>푸들</item>
+        <item>샴</item>
+    </string-array>
+    <string-array name="spinner_variety_cat">
+        <item>몰라요</item>
+        <item>믹스묘</item>
+        <item>먼치킨</item>
+    </string-array>
+
+
+</resources>

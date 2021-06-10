@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">댕댕아 어디있니</string>
+    <string name="title_adopt">입양</string>
+    <string name="title_list">목록</string>
+    <string name="title_community">커뮤니티</string>
+    <string name="sub_community">댕댕아 어디있니의 커뮤니티는 사용자분들의 의사소통 공간입니다.\n동물 친구들의 사진과 일상을 공유하는 목적의 게시글만 작성해 주십시오.\n정치·사회, 홍보 및 판매 등의 게시물 작성 시, 게시물이 무통보 삭제될 수 있으니 유의하시기 바랍니다.\n\n※그 밖의 규칙 위반\n - 타인의 권리를 침해하거나 불쾌감을 주는 행위\n - 범죄, 불법 행위 등 법령을 위반하는 행위\n - 욕설, 비하, 차별, 혐오, 자살, 폭력 관련 내용을 포함한 게시물 작성 행위</string>
+</resources>

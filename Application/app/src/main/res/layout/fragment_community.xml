@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.community.CommunityFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/titleArea">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/listTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="커뮤니티"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+            <TextView
+                android:id="@+id/communityTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/txt_setting"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="20dp"
+                android:text="@string/sub_community"
+                android:textColor="#8E8E8E"
+                android:lineSpacingExtra="4sp"
+                android:textSize="11sp" />
+            <View
+                android:id="@+id/listLine"
+                android:layout_width="match_parent"
+                android:layout_height="30px"
+                android:layout_marginBottom="10dp"
+                android:background="#EEEFF6" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/IsResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

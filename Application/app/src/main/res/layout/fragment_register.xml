@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.list.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="댕댕아 어디있니"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <View
+            android:id="@+id/appLine"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            app:layout_constraintTop_toBottomOf="@id/appTitle"
+            android:background="@color/colorAssist" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/listTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="발견한 동물을 등록해요!"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/pet_image"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:maxWidth="350dp"
+            android:maxHeight="350dp"
+            android:src="@drawable/dangdang" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_takePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryWhite"
+            android:background="@drawable/camera_btn_setting"
+            android:layout_margin="5dp"
+            android:text="촬영" />
+        <Button
+            android:id="@+id/btn_selectPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryWhite"
+            android:background="@drawable/camera_btn_setting"
+            android:layout_margin="5dp"
+            android:text="앨범" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radioText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="어떤 동물인가요?"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/registerKind">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="강아지" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="고양이" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/spinnerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="품종"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textRegisterPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지역" />
+
+            <Spinner
+                android:id="@+id/spinnerRegisterPlace"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textRegisterPlace2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="상세지역" />
+
+            <Spinner
+                android:id="@+id/spinnerRegisterPlace2"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radioText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="성별"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/registerGender">
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="수컷" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="암컷" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="몰라요" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/radioText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="임시 보호 중 인가요?"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/registerSafe">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="예" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/CustomRadioButton"
+                    android:text="아니오" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="전화번호를 입력해주세요"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_setting"
+            android:inputType="phone"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/lineH2"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorAssist"
+            app:layout_constraintBottom_toTopOf="@id/btn_register"/>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_setting"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="등록" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
