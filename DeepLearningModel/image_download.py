@@ -17,10 +17,10 @@ file = open('data.txt','w') #data count
 file.write(str(len(data)))
 file.close()
 
-if os.path.exists(my_path):
+if os.path.exists(my_path): #all data delete
     shutil.rmtree("./images/pet_image")
 
-if not os.path.exists(my_path):
+if not os.path.exists(my_path): #new data add
     os.makedirs(my_path)
 
 
