@@ -94,6 +94,6 @@ N: 인덱스
 '''
 
 startNum, endNum , startIdx, endIdx, N= _, _, _, _, _
-crawlstartNum, endNum, N)
+crawl(startNum, endNum, N)
 updateImgToDB(startIdx, endIdx)
 
